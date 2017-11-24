@@ -3,6 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 100%;
+    padding: 15px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.col {
+    width: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+
 /* celular */
 
 @media screen and (min-width: 0px) {
@@ -11,6 +31,7 @@
     .col-cl-3 {width: 60%;}
     .col-cl-4 {width: 80%;}
     .col-cl-5 {width: 100%;}
+ 
 }
 
 @media screen and (min-width: 768px) {
