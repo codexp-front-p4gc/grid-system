@@ -5,13 +5,11 @@
 }
 /* celular */
 
-@media screen and (min-width: 0px) {
     .col-cl-1 {width: 20%;}
     .col-cl-2 {width: 40%;}
     .col-cl-3 {width: 60%;}
     .col-cl-4 {width: 80%;}
     .col-cl-5 {width: 100%;}
-}
 
 /* tablet */
 @media screen and (min-width: 768px) {
