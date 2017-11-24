@@ -7,7 +7,6 @@
 .container  {
     width: 100%;
     padding: 15px;
-    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -20,7 +19,6 @@
     display: inline-block;
     margin-right: -4px;
     vertical-align: top;
-    border: 1px solid red;
 }
 
 /* celular */
