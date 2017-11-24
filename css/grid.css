@@ -13,8 +13,8 @@
     .col-cl-5 {width: 100%;}
 }
 
+/* tablet */
 @media screen and (min-width: 768px) {
-    /* tablet */
     .col-tb-1 {width: 10%;}
     .col-tb-2 {width: 20%;}
     .col-tb-3 {width: 30%;}
@@ -27,8 +27,8 @@
     .col-tb-10 {width: 100%;}
 }
 
+/* desktop */
 @media screen and (min-width: 992px) {
-    /* desktop */
     .col-dk-1 {width: 8.33%;}
     .col-dk-2 {width: 16.66%;}
     .col-dk-3 {width: 25%;}
@@ -43,8 +43,8 @@
     .col-dk-12 {width: 100%;}
 }
 
+/* large */
 @media screen and (min-width: 1200px) {
-    /* large */
     .col-lg-1 {width: 8.33%;}
     .col-lg-2 {width: 16.66%;}
     .col-lg-3 {width: 25%;}
