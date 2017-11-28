@@ -1,0 +1,48 @@
+.row__image {
+    height: 200px;
+    background-color: gray;
+    margin:4px;
+    border-radius: 25px;
+}
+
+.row__title {
+    height: 30px;
+    background-color: darkgray;
+    margin:10px 4px;
+}
+
+.row__line {
+    height: 25px;
+    background-color: lightgray;
+    margin: 3px;
+}
+
+.row__line :first-of-type {
+    margin-top: 10px;
+}
+
+.row__line :last-of-type {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+.row__title {
+    float: left;
+    display: inline-block;
+    margin-right: -4px;
+    width: 40%;
+}
+
+.row__line {
+    float: left;
+    display: inline-block;
+    margin-right: -4px;
+    width: 47%;
+}
+
+.row__image {
+    float: right;
+    width: 48%;
+}
+} 
+    

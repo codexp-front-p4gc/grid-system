@@ -1,0 +1,43 @@
+footer {
+    background-color: #d3d3d3; 
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.site-map {
+    width: 100%;
+    margin: 40px auto 15px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.site-map__page {
+    display: inline-block;
+    background-color: gray; 
+    padding: 2px;
+    height: 25px;
+    box-sizing: border-box;
+    margin: 0 2px;
+}
+
+.tagline {
+    background-color: gray; 
+    height: 25px;
+    margin: 10px auto 40px auto;
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        flex-flow: row-reverse nowrap;
+    }
+
+    .site-map {
+        margin: 20px 2% 20px 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .tagline {
+        display: inline;     
+        margin: 20px 0 20px 2%;
+    }
