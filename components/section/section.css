@@ -5,43 +5,44 @@
     border-radius: 25px;
 }
 
-.row-conteudo__title {
+.row__title {
     height: 30px;
     background-color: darkgray;
-    margin:7px 4px;
-    
-
+    margin:10px 4px;
 }
 
-.row-conteudo__line {
+.row__line {
     height: 25px;
     background-color: lightgray;
-    margin: 4px;
+    margin: 3px;
 }
 
-.row-conteudo__line :first-of-type {
+.row__line :first-of-type {
     margin-top: 10px;
 }
 
-.row-conteudo__line :last-of-type {
+.row__line :last-of-type {
     margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
-.row-conteudo__title {
+.row__title {
     float: left;
     display: inline-block;
     margin-right: -4px;
+    width: 40%;
 }
 
-.row-conteudo__line {
+.row__line {
     float: left;
     display: inline-block;
     margin-right: -4px;
+    width: 47%;
 }
 
 .row__image {
     float: right;
+    width: 48%;
 }
 } 
     
